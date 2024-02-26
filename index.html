@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+    <div id="site">
+        <header>
+            <h1>BARBEARIA</h1>
+        </header>
+        <main>
+            <div id="conteudo-principal">
+                <div class="button">
+                    <a href="https://wa.me/5588996553613" target="_blank">Fale comigo!</a>
+                </div>
+                <div class="button">
+                    <a href="valores.html">Tabela de preços</a>
+                </div>
+                <div class="button" onclick="mostrarmapa()">
+                   <p>Localização</p>
+                </div>
+                <div class="button" onclick="abririmagens()">
+                    cortes
+                </div>
+            </div>
+            
+            <div id="alerta">
+                <img src="imagens/WhatsApp_Image_2024-02-24_at_21.41.55-removebg-preview_resized.png" alt="" id="imagem">
+        
+                <p>Entenda os horarios  de <br>funcionamento do salão <br> <a href="horarios.html">clicando aqui</a>, Por favor.</p>
+            </div>
+        </main>
+        <footer>
+                <p>Desenvolvido por Diego Araújo</p>
+        </footer>
+    </div>
+
+    <div id="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1247.2676274681232!2d-39.20497918055809!3d-6.202091748531758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1708975710026!5m2!1spt-BR!2sbr" width="563" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        <div id="fechar" onclick="fecharmapa()"> FECHAR MAPA</div>
+    </div>
+
+    <script src="mapa.js"></script>
+</body>
+</html>
