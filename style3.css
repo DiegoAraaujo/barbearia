@@ -92,9 +92,12 @@ div#alerta p{
     left: 68px;
 }
 
-div#alerta a{
-    color: #002fff;
-    text-decoration: none;
+div#alerta span{
+    color: blue;
+}
+
+div#alerta span:hover{
+    cursor: pointer;
 }
 
 footer{
