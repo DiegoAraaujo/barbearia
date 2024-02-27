@@ -7,10 +7,6 @@
 }
 
 
-h1 {
-    font-family: "Protest Revolution", sans-serif;
-}
-
 body {
     background-color: #161616;
 }
@@ -23,6 +19,7 @@ body {
     width: 380px;
 }
 
+/*-----------------------HEADER---------------------------------*/
 header{
     margin: auto;
     width: 239px;
@@ -33,6 +30,12 @@ header{
     border-radius: 30px 30px 0px 0px;
 }
 
+h1 {
+    font-family: "Protest Revolution", sans-serif;
+}
+/*--------------------------------------------------------------*/
+
+/*------------------------CONTEUDO PRINCIPAL-------------------*/
 #conteudo-principal{
     border-radius: 15px 15px 0px 0px;
     margin: auto;
@@ -88,7 +91,7 @@ div#alerta p{
     height: 50px;
     color: white;
     position: relative;
-    top: -67px;
+    top: -70px;
     left: 68px;
 }
 
@@ -99,7 +102,9 @@ div#alerta span{
 div#alerta span:hover{
     cursor: pointer;
 }
+/*--------------------------------------------------------------*/
 
+/*----------------------------FOOTER------------------------------*/
 footer{
     margin: auto;
     background-color: #e0e0e0;
@@ -116,7 +121,6 @@ footer > p{
     text-align: center;
     font-size: 10px;
 }
-
 
 div#localizacao{
     max-width: 563px;
@@ -144,3 +148,4 @@ div#localizacao{
 #fechar:hover{
     cursor: pointer;
 }
+/*--------------------------------------------------------------*/
