@@ -20,7 +20,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 563px;
+    width: 380px;
 }
 
 header{
@@ -38,7 +38,7 @@ header{
     margin: auto;
     padding-top: 20px;
     background-color: #212121;
-    max-width: 563px;
+    width: 380px;
     height: 330px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ header{
 .button{
     border-radius: 25px;
     background-color: #e0e0e0;
-    width: 375px;
+    width: 320px;
     height: 49px;
     display: flex;
     justify-content: center;
