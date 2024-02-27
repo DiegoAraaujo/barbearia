@@ -175,7 +175,6 @@ div#recado-horario > p{
 table#disponibilidade-semanal1{
     display: none;
     overflow-x: auto;
-    width: 10px;
     margin-top: 10px;
     border-collapse: collapse;
 }

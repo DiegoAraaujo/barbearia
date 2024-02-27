@@ -50,6 +50,7 @@ h1 {
     align-items: center;
     justify-content: start;
     row-gap: 25px;
+    overflow-y: auto;
 }
 
 .button{
