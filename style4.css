@@ -25,7 +25,7 @@ header{
     margin: auto;
     width: 150px;
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     background-color:#e0e0e0;
     padding: 15px;
     border-radius: 30px 30px 0px 0px;
@@ -43,7 +43,7 @@ h1 {
     margin: auto;
     padding-top: 20px;
     background-color: #212121;
-    width: 330px;
+    width: 300px;
     height: 330px;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ h1 {
 .button{
     border-radius: 25px;
     background-color: #e0e0e0;
-    width: 320px;
+    width: 260px;
     height: 49px;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ div.button > a{
 div#alerta {
     margin: auto;
     background-color: #212121;
-    max-width: 330px;
+    max-width: 300px;
     height: 85px;
 }
 
@@ -110,7 +110,7 @@ div#alerta span:hover{
 footer{
     margin: auto;
     background-color: #e0e0e0;
-    max-width: 330px;
+    max-width: 300px;
     height: 50px;
     border-radius: 0px 0px 15px 15px;
     display: flex;
@@ -130,11 +130,11 @@ div#localizacao{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -56%);
+    transform: translate(-50%, -58.3%);
 }
 
 #mapa{
-    width: 330px;
+    width: 300px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -145,7 +145,7 @@ div#localizacao{
     padding: 10px;
     width: 100px;
     position: relative;
-    left: 62%;
+    left: 60%;
     font-size: 13px;
     text-align: center;
 }
@@ -157,7 +157,7 @@ div#localizacao{
 #recado-horario{
     display: none;
     background-color: #e0e0e0;
-    width: 330px;
+    width: 300px;
     padding: 25px;
     box-sizing: border-box;
     border-radius: 15px;
