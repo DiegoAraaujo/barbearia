@@ -157,18 +157,13 @@ div#localizacao{
 }
 /*----------------------------------------------------------------*/
 
-div#recado-horario{
+#recado-horario{
     display: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -47.8%);
     background-color: #e0e0e0;
     width: 563px;
-    height: 435px;
     padding: 25px;
     box-sizing: border-box;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
 }
 div#recado-horario > p{
     text-align: justify;
@@ -176,46 +171,13 @@ div#recado-horario > p{
     text-indent: 20px;
 }
 
-table#disponibilidade-semanal1{
-    margin-top: 10px;
+table{
     border-collapse: collapse;
+    margin: auto;
 }
 th,td{
+    border: 2px black solid;
+    width: 110px;
     text-align: center;
-    padding: 5px;
-    border: 1px solid black;
 }
 
-#fechar-recado1:hover{
-    cursor: pointer;
-}
-
-#fechar-recado1{
-    background-color: #212121;
-    position: relative;
-    left: 70%;
-    top: 4%;
-    border-radius: 5px;
-    padding: 10px;
-    width: 117px;
-    text-align: center;
-    color: white;
-}
-
-
-table#disponibilidade-semanal2{
-    display: none;
- 
-}
-#fechar-recado2{
-    display: none;
-    background-color: #212121;
-    position: relative;
-    left: 64%;
-    top: 1%;
-    border-radius: 5px;
-    padding: 5px;
-    width: 117px;
-    text-align: center;
-    color: white;
-}

@@ -171,7 +171,7 @@ div#recado-horario > p{
     text-indent: 20px;
 }
 
-table#disponibilidade-semanal1{
+table#disponibilidade-semanal{
     display: none;
     margin-top: 10px;
     border-collapse: collapse;
@@ -182,7 +182,7 @@ th,td{
     border: 1px solid black;
 }
 
-#fechar-recado1{
+#fechar-recado{
     display: none;
     background-color: #212121;
     position: relative;
@@ -190,18 +190,6 @@ th,td{
     top: 4%;
     border-radius: 5px;
     padding: 10px;
-    width: 117px;
-    text-align: center;
-    color: white;
-}
-
-#fechar-recado2{
-    background-color: #212121;
-    position: relative;
-    left: 64%;
-    top: 1%;
-    border-radius: 5px;
-    padding: 5px;
     width: 117px;
     text-align: center;
     color: white;
