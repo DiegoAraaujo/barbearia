@@ -43,7 +43,7 @@ h1 {
     margin: auto;
     padding-top: 20px;
     background-color: #212121;
-    width: 380px;
+    max-width: 380px;
     height: 330px;
     display: flex;
     flex-direction: column;
