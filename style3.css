@@ -154,7 +154,7 @@ div#localizacao{
 /*--------------------------------------------------------------*/
 
 div#recado-horario{
-    display: none;
+    display: block;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -172,6 +172,7 @@ div#recado-horario > p{
 }
 
 table#disponibilidade-semanal1{
+    display: none;
     margin-top: 10px;
     border-collapse: collapse;
 }
@@ -181,11 +182,8 @@ th,td{
     border: 1px solid black;
 }
 
-#fechar-recado1:hover{
-    cursor: pointer;
-}
-
 #fechar-recado1{
+    display: none;
     background-color: #212121;
     position: relative;
     left: 70%;
@@ -197,13 +195,7 @@ th,td{
     color: white;
 }
 
-
-table#disponibilidade-semanal2{
-    display: none;
- 
-}
 #fechar-recado2{
-    display: none;
     background-color: #212121;
     position: relative;
     left: 64%;
