@@ -155,7 +155,7 @@ div#localizacao{
 #recado-horario{
     display: none;
     background-color: #e0e0e0;
-    width: 563px;
+    width: 380px;
     padding: 25px;
     box-sizing: border-box;
     border-radius: 15px;
@@ -176,4 +176,16 @@ th,td{
     text-align: center;
 }
 
+#fechar-recado{
+    background-color: #161616;
+    width: 50px;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 10px  auto 0px auto ;
+    color: #e0e0e0;
+}
+
+#fechar-recado:hover{
+    cursor: pointer;
+}
 
