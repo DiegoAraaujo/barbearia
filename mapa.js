@@ -22,7 +22,3 @@ function fecharrecado(){
     contprinc.style.display = 'block'
 }
 
-function fecharrecado2(){
-    let recado2 = document.getElementById("recado-horario")
-    recado2.style.display = 'none'
-}
