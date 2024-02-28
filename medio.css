@@ -14,7 +14,7 @@ body{
 header{
     background-color: #e0e0e0;
     font-family: "Protest Revolution", sans-serif;
-    width: 450px;
+    width: 300px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
     padding: 10px;
@@ -26,20 +26,20 @@ main{
     box-sizing: border-box;
     border-radius: 15px 15px 0px 0px;
     background-color: rgb(19, 19, 19);
-    width: 900px;
+    width: 600px;
     padding: 10px 10px 0px 10px ;
 }
 /*--------------------BOTÕES------------------*/
 #buttons{
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 600px;
+    margin-top: 10px;
 }
 .button{
     padding: 15px;
     text-align: center;
-    width: 700px;
+    width: 400px;
     background-color: #e0e0e0;
     border-radius: 55px;
     margin-bottom:15px ;
@@ -58,7 +58,6 @@ main{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 18px;
 }
 #horarios-funcionamento span{
     color: rgb(0, 4, 255);
@@ -75,7 +74,7 @@ main{
     background-color: #e0e0e0;text-align: center;
     padding: 5px;
     border-radius: 30px;
-    width:150px;
+    width:120px;
     position: relative;
     left: 72%;
 }
@@ -123,10 +122,10 @@ th,td{
 }
 /*--------------------fOOTER------------------*/
 footer{
-    box-sizing: border-box;
-    padding: 15px;
     background-color: #e0e0e0;
-    width: 900px;
+    width: 600px;
     text-align: center;
     border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+    box-sizing: border-box;
 }
