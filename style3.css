@@ -152,3 +152,8 @@ div#localizacao{
     cursor: pointer;
 }
 /*--------------------------------------------------------------*/
+#espextra{
+    background-color: #212121;
+    width:380px ;
+    height: 100px;
+}
