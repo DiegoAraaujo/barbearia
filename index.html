@@ -4,107 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia</title>
-
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="style2.css" media="screen
-    and (max-width:570px)">
-    <link rel="stylesheet" href="style3.css" media="screen
-    and (max-width:420px)">
-    <link rel="stylesheet" href="style4.css" media="screen
-    and (max-width:400px)">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medio.css">
+    <link rel="stylesheet" href="pequeno.css">
+    <link rel="stylesheet" href="muitopequeno.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
     </style>
 </head>
 <body>
-    <div id="site">
-        <header>
-            <h1 >BARBEARIA &#x1F488;</h1>
-        </header>
-        <main>
-            <div id="conteudo-principal">
-                <div class="button">
-                    <a href="https://wa.me/5588996553613" target="_blank">Fale comigo!</a>
-                </div>
-                <div class="button">
-                    <a href="valores.html">Tabela de preços</a>
-                </div>
-                <div class="button" onclick="mostrarmapa()">
-                   <p>Localização</p>
-                </div>
-                <div class="button" onclick="abririmagens()">
-                    <a href="cortes.html">cortes</a>
-                </div>
+    <header>
+        <h1 >BARBEARIA &#x1F488;</h1>
+    </header>
+    <main>       
+         <div id="buttons">
+            <div class="button">
+                <p><a href="https://wa.me/5588996553613" target="_blank">Fale comigo!</a></p>
             </div>
-            <div id="alerta">
-                <img src="imagens/WhatsApp_Image_2024-02-24_at_21.41.55-removebg-preview_resized.png" alt="" id="imagem">
-        
-                <p>Entenda os horários  de <br>funcionamento do salão <br><span onclick="verrecado()">clicando aqui</span></a>, por favor.</p>
+            <div class="button">
+                <p><a href="valores.html">Tabela de preços</a></p>
             </div>
-        </main>
-
-        <footer>
-                <p>Desenvolvido por Diego Araújo &#x1F4BB;</p>
-        </footer>
-    </div>
-
-    <div id="localizacao">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1247.2676274681232!2d-39.20497918055809!3d-6.202091748531758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1708975710026!5m2!1spt-BR!2sbr" width="563" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
-        <div id="fechar" onclick="fecharmapa()"> FECHAR MAPA</div>
-    </div>
-
-    <div id="recado-horario">
-        <p>Olá, meu nome é Diego. Como você já deve ter percebido, tenho algumas restrições quanto aos horários em que estarei disponível no salão. Isso se deve ao fato de precisar conciliar minhas atividades diárias. Sou universitário e estou cursando Ciências da Computação no período da manhã. Os estudos consomem grande parte do meu tempo, o que significa que não estou disponível durante todo o dia. No entanto, abaixo, listarei os horários em que posso estar disponível, para que você possa escolher o melhor para você de acordo com a minha disponibilidade. Desde já, agradeço pela compreensão.</p>
-
-        <table>
-            <tr>
-                <th>dias da semana</th>
-              <th> Manhã</th>
-                <th>tarde</th>
-            </tr>
-            <tr>
-                <th>Domingo</th>
-                <td>6:30 as 12:00</td>
-                <td>&#x1F4F4;</td>
-            </tr>
-            <tr>
-                <th>Segunda</th>
-                <td>&#x1F4F4;</td>
-                <td>14:00 as 17:00</td>
-            </tr>
-            <tr>
-                <th>Terça</th>
-                <td>&#x1F4F4;</td>
-                <td>14:00 as 17:00</td>
-            </tr>
-            <tr>
-                <th>Quarta</th>
-                <td>&#x1F4F4;</td>
-                <td>6:30 as 12:00</td>
-            </tr>
-            <tr>
-                <th>Quinta</th>
-                <td>&#x1F4F4;</td>
-                <td>6:30 as 12:00</td>
-            </tr>
-            <tr>
-                <th>Sexta</th>
-                <td>&#x1F4F4;</td>
-                <td>6:30 as 12:00</td>
-            </tr>
-            <tr>
-                <th>Sabado</th>
-                <td>6:30 as 12:00</td>
-                <td>1:30 as 15:30</td>
-            </tr>
-        </table>
-
-        <div id="fechar-recado" onclick="fecharrecado()">
-            Fechar
+            <div class="button" onclick="mostrarmapa()">
+                <p>Localização</p>
+            </div>
+            <div class="button" onclick="abririmagens()">
+                <p><a href="cortes.html">cortes</a></p>
+            </div>
         </div>
-    </div>
 
-    <script src="mapa.js"></script>
+        <div id="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1660.3038516704135!2d-39.20574512619022!3d-6.203103645354824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1709135738637!5m2!1spt-BR!2sbr" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="ocultarmapa" onclick="fecharmapa()"> FECHAR MAPA</div>
+        </div>
+
+        <div id="horarios-funcionamento">
+            <p>Entenda os horários  de <br>funcionamento do salão <br><span onclick="verrecado()">clicando aqui</span></a>, por favor.</p>
+
+            <img src="imagens/WhatsApp_Image_2024-02-24_at_21.41.55-removebg-preview_resized.png" alt="" id="imagem">
+        </div>
+
+        <div id="recado">
+            <div id="explic">
+                <p>Olá, meu nome é Diego. Como você já deve ter percebido, tenho algumas restrições quanto aos horários em que estarei disponível no salão. Isso se deve ao fato de precisar conciliar minhas atividades diárias. Sou universitário e estou cursando Ciências da Computação no período da manhã. Os estudos consomem grande parte do meu tempo, o que significa que não estou disponível durante todo o dia. No entanto, abaixo, listarei os horários em que posso estar disponível, para que você possa escolher o melhor para você de acordo com a minha disponibilidade. Desde já, agradeço pela compreensão.</p>
+            </div>
+
+            <table id="tabela">
+                <tr>
+                    <th>dias da semana</th>
+                    <th> Manhã</th>
+                    <th>tarde</th>
+                </tr>
+                <tr>
+                    <th>Domingo</th>
+                    <td>6:30 as 12:00</td>
+                    <td>&#x1F4F4;</td>
+                </tr>
+                <tr>
+                    <th>Segunda</th>
+                    <td>&#x1F4F4;</td>
+                    <td>14:00 as 17:00</td>
+                </tr>
+                <tr>
+                    <th>Terça</th>
+                    <td>&#x1F4F4;</td>
+                    <td>14:00 as 17:00</td>
+                </tr>
+                <tr>
+                    <th>Quarta</th>
+                    <td>&#x1F4F4;</td>
+                    <td>6:30 as 12:00</td>
+                </tr>
+                <tr>
+                    <th>Quinta</th>
+                    <td>&#x1F4F4;</td>
+                    <td>6:30 as 12:00</td>
+                </tr>
+                <tr>
+                    <th>Sexta</th>
+                    <td>&#x1F4F4;</td>
+                    <td>6:30 as 12:00</td>
+                </tr>
+                <tr>
+                    <th>Sabado</th>
+                    <td>6:30 as 12:00</td>
+                    <td>1:30 as 15:30</td>
+                </tr>
+            </table>
+            <div id="ocultar-recado" onclick="fecharrecado()">
+                Fechar
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Diego Araújo &#x1F4BB;</p>
+    </footer>
+    <script src="interacao.js"></script>
 </body>
 </html>
