@@ -57,7 +57,9 @@ h1{
 }
 #avancar:hover{
     cursor: pointer;
+    transform: translate(-2px,-2px);
 }
 #voltar:hover{
     cursor: pointer;
+    transform: translate(-2px,-2px);
 }
