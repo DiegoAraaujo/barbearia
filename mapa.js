@@ -9,17 +9,13 @@ function fecharmapa(){
 }
 
 function verrecado(){
-    let spaextr = document.getElementById("espextra")
     let recado = document.getElementById("recado-horario")
     recado.style.display = 'block'
-    spaextr.style.display = 'block'
 }
 
 function fecharrecado(){
-    let spaextr = document.getElementById("espextra")
     let recado = document.getElementById("recado-horario")
     recado.style.display = 'none'
-    spaextr.style.display = 'none'
 }
 
 function fecharrecado2(){
