@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cortes.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+    </style>
 </head>
 <body>
-    
-</body>
-</html>
+    <main>
+      <div>
+          <h1>BARBEARIA &#x1F488;</h1>
+      </div>
+      <div class="album-de-fotos">
+          <div class="foto">
+              <img src="imagens/imagem1.jpeg" alt="">
+          </div>
+          <div class="foto">
+              <img src="imagens/imagem2.jpeg" alt="">
+          </div>
+          <div class="foto">
+              <img src="imagens/imagem3.png" alt="">
+          </div>
+          <div class="foto">
+              <img src="imagens/imagem4.png" alt="">
+          </div>
+      </div>
+      <div id="botoes">
+          <div id="voltar" onclick="anterior()">&#x25C0;</div>
+          <div id="avancar" onclick="proximo()">&#x25B6;</div>
+      </div>
+    </main>  
+    <script src="mudarfotos.js"></script>
+  </body>
+  </html>
