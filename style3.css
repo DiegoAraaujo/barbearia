@@ -78,14 +78,14 @@ div.button > a{
 div#alerta {
     margin: auto;
     background-color: #212121;
-    max-width: 563px;
+    max-width: 380px;
     height: 85px;
 }
 
 div#alerta img{
     position: relative;
     top: -3px;
-    left: 250px;
+    left: 170px;
 }
 
 div#alerta p{
@@ -93,8 +93,8 @@ div#alerta p{
     height: 50px;
     color: white;
     position: relative;
-    top: -70px;
-    left: 68px;
+    top: -73px;
+    left: 10px;
 }
 
 div#alerta span{
@@ -134,7 +134,7 @@ div#localizacao{
 }
 
 #mapa{
-    width: 380;
+    width: 380px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -145,7 +145,7 @@ div#localizacao{
     padding: 10px;
     width: 117px;
     position: relative;
-    left: 72%;
+    left: 62%;
 }
 
 #fechar:hover{
