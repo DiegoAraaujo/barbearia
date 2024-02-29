@@ -15,12 +15,15 @@ header{
     width: 200px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
-    padding: 10px;
+    padding: 7px;
     font-size: 12px;
     margin-top: 10px;
-
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 }
 main{
+    box-shadow: ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,8 +48,11 @@ main{
     border-radius: 55px;
     margin-bottom:35px ;
     transition:transform ease 0.2s;
+    border: 4px solid white;
 }
 .button:hover{
+    background-color: #ffffff;
+    border: 4px solid #e0e0e0;
     cursor: pointer;
     transform: translate(-3px,-3px);
 }
@@ -63,6 +69,7 @@ main{
 #horarios-funcionamento span{
     color: rgb(0, 4, 255);
 }
+
 #horarios-funcionamento span:hover{
     cursor: pointer;
 }
