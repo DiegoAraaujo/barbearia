@@ -7,43 +7,43 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(34, 33, 33);
 }
 header{
     background-color: #e0e0e0;
     font-family: "Protest Revolution", sans-serif;
-    width: 200px;
+    width: 240px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
     padding: 7px;
     font-size: 12px;
     margin-top: 10px;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-top: 3px solid #131313;
+    border-left: 3px solid #131313;
+    border-right: 3px solid #131313;
 }
 main{
-    box-shadow: ;
+    box-shadow: 4px 0px 10px black;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     border-radius: 15px 15px 0px 0px;
-    background-color: rgb(19, 19, 19);
-    width: 340px;
+    background-color: #131313;
+    width: 380px;
     padding: 10px 10px 0px 10px ;
 }
 /*--------------------BOTÕES------------------*/
 #buttons{
     display: flex;
     flex-direction: column;
-    width: 217px;
+    width: 260px;
     margin-top: 10px;
 }
 .button{
     padding: 15px;
     text-align: center;
-    width: 190px;
+    width: 230px;
     background-color: #e0e0e0;
     border-radius: 55px;
     margin-bottom:35px ;
@@ -136,7 +136,7 @@ th,td{
 /*--------------------fOOTER------------------*/
 footer{
     background-color: #e0e0e0;
-    width: 340px;
+    width: 380px;
     text-align: center;
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
