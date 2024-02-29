@@ -17,7 +17,7 @@ header{
     border-radius: 15px 15px 0px 0px;
     padding: 7px;
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 25px;
     border-top: 3px solid #131313;
     border-left: 3px solid #131313;
     border-right: 3px solid #131313;
@@ -49,6 +49,7 @@ main{
     margin-bottom:35px ;
     transition:transform ease 0.2s;
     border: 4px solid white;
+    font-weight: bolder;
 }
 .button:hover{
     background-color: #ffffff;
@@ -68,11 +69,15 @@ main{
 }
 #horarios-funcionamento span{
     color: rgb(0, 4, 255);
+    transition: ease 0.3s font-size;
 }
-
+#horarios-funcionamento span:hover{
+    font-size: 17px;
+}
 #horarios-funcionamento span:hover{
     cursor: pointer;
 }
+
 /*--------------------LOCALIZAÇÃO------------------*/
 
 #localizacao{
