@@ -18,14 +18,12 @@ header{
     padding: 10px;
     font-size: 12px;
     margin-top: 10px;
-    position: absolute;
-    top: 25%;
+
 }
 main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
     border-radius: 15px 15px 0px 0px;
     background-color: rgb(19, 19, 19);
@@ -45,7 +43,7 @@ main{
     width: 190px;
     background-color: #e0e0e0;
     border-radius: 55px;
-    margin-bottom:15px ;
+    margin-bottom:35px ;
     transition:transform ease 0.2s;
 }
 .button:hover{
@@ -136,6 +134,4 @@ footer{
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
     box-sizing: border-box;
-    position: absolute;
-    top: 68.5%;
 }
