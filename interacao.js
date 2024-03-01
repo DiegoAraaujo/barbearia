@@ -30,3 +30,13 @@ function fecharrecado(){
     botaodeocultar.style.display = 'none'
 }
 
+function exibirprecos(){
+    let tabela = document.getElementById("precos")
+    tabela.style.display = 'flex'
+}
+
+function fecharprecos(){
+    let tabeladeprecos = document.getElementById("precos")
+    tabeladeprecos.style.display = 'none'    
+}
+

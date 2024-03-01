@@ -26,29 +26,68 @@
         <h1>Diego Araujo &#x1F488;</h1>
     </header>
     <main>       
-         <div id="buttons">
+        <div class="buttons">
             <div class="button">
                 <p><a href="https://wa.me/5588996553613" target="_blank">Fale comigo!</a></p>
             </div>
-            <div class="button">
-                <p><a href="valores.html">Tabela de preços</a></p>
+        </div>
+        <div class="buttons">
+            <div class="button" onclick="exibirprecos()">
+                <p> Tabela de preços</p>
             </div>
+        </div>
+        <div id="precos">
+            <table id="tabela-precos">
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço individual</th>
+                    <th>Serviço gratuito ao pagar o corte</th>
+                </tr>
+                <tr>
+                    <td>corte</td>
+                    <td>10 R$</td>
+                    <td>Pago</td>
+                </tr>
+                <tr>
+                    <td>Sobrancelha</td>
+                    <td>2 R$</td>
+                    <td>Gratuito</td>
+                </tr>
+                <tr>
+                    <td>Pezinho</td>
+                    <td>3 R$</td>
+                    <td>Gratuito</td>
+                </tr>
+                <tr>
+                    <td>Barba</td>
+                    <td>5 R$</td>
+                    <td>Pago</td>
+                </tr>
+            </table>
+            <div id="ocultarprecos" onclick="fecharprecos()"> 
+                FECHAR
+            </div>
+        </div>
+        <div class="buttons">
             <div class="button" onclick="mostrarmapa()">
                 <p>Localização</p>
-            </div>
-            <div class="button" onclick="abririmagens()">
-                <p><a href="cortes.html">cortes</a></p>
             </div>
         </div>
 
         <div id="localizacao">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1660.3038516704135!2d-39.20574512619022!3d-6.203103645354824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1709135738637!5m2!1spt-BR!2sbr" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div id="ocultarmapa" onclick="fecharmapa()"> FECHAR MAPA</div>
+            <div id="ocultarmapa" onclick="fecharmapa()"> 
+                FECHAR MAPA
+            </div>
         </div>
 
+        <div class="buttons">
+            <div class="button" onclick="abririmagens()">
+                <p><a href="cortes.html">cortes</a></p>
+            </div>
+        </div>
         <div id="horarios-funcionamento">
             <p>Entenda os horários  de <br>funcionamento do salão <br><span onclick="verrecado()">clicando aqui</span></a>, por favor.</p>
-
             <img src="imagens/WhatsApp_Image_2024-02-24_at_21.41.55-removebg-preview_resized.png" alt="" id="imagem">
         </div>
 

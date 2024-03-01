@@ -34,19 +34,20 @@ main{
     padding: 10px 10px 0px 10px ;
 }
 /*--------------------BOTÕES------------------*/
-#buttons{
+.buttons{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 260px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .button{
     padding: 15px;
     text-align: center;
-    width: 230px;
+    width: 210px;
     background-color: #e0e0e0;
     border-radius: 55px;
-    margin-bottom:35px ;
     transition:transform ease 0.2s;
     border: 4px solid white;
     font-weight: bolder;
@@ -57,7 +58,7 @@ main{
     cursor: pointer;
     transform: translate(-3px,-3px);
 }
-#buttons a{
+.buttons a{
     text-decoration: none;
     color: black;
 }
@@ -82,20 +83,27 @@ main{
 
 #localizacao{
     display: none;
+    margin-bottom: 10px;
 }
 #ocultarmapa{
-    background-color: #e0e0e0;text-align: center;
+    background-color: #e0e0e0;
+    text-align: center;
     padding: 5px;
     border-radius: 30px;
     width:120px;
     position: relative;
     left: 60%;
+    border: 4px white solid;
+    font-weight: bolder;
+    font-size: 13px;
 }
 #ocultarmapa:hover{
     cursor: pointer;
+    transform: translate(-2px,-2px);
 }
 iframe{
     width: 325px;
+    border-radius: 3px;
 }
 /*--------------------RECADO------------------*/
 #recado{
@@ -126,8 +134,8 @@ iframe{
     line-height: 1.5;
     margin-bottom: 10px;
 }
-/*--------------------TABELA------------------*/
-table{
+/*--------------------TABELA HORARIOS------------------*/
+#tabela{
     background-color: #e0e0e0;
     border-collapse: collapse;
     width: 300px;
@@ -146,4 +154,39 @@ footer{
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
     box-sizing: border-box;
+}
+/*--------------------TABELA PREÇOS------------------*/
+#tabela-precos{
+    margin-top: 5px;
+    padding: 2px;
+    border-collapse: collapse;
+    background-color: #e0e0e0;
+    width: 300px;
+}
+#precos{
+    display: none;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 340px;
+}
+#ocultarprecos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+    width:100px;
+    position: relative;
+    left: 27%;
+    border: 4px white solid;
+    font-weight: bolder;
+    font-size: 13px;
+}
+#ocultarprecos:hover{
+    cursor: pointer;
+    transform: translate(-2px,-2px);
 }
