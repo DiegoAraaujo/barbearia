@@ -1,6 +1,6 @@
 function mostrarmapa(){
     let local = document.getElementById("localizacao")
-    local.style.display = 'block'
+    local.style.display = 'flex'
 }
 
 function fecharmapa(){
