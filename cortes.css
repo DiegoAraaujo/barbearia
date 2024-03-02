@@ -6,27 +6,45 @@
 }
 
 body{
-    background-color: #161616;
+    background-color: #222121;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    border-radius: 30px 30px 0px 0px;
-}
-
-h1{
-    font-family: "Protest Revolution", sans-serif;
-    background-color: #e0e0e0;
-    border-radius: 30px 30px 0px 0px;
-    text-align: center;
-    padding: 10px;
     width: 380px;
+    background-color: #131313;
+    border-radius: 30px 30px 0px 0px;
 }
 
+header{
+    background-color: #e0e0e0;
+    font-family: "Protest Revolution", sans-serif;
+    width: 240px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 7px;
+    font-size: 12px;
+    margin-top: 35px;
+    border-top: 3px solid #131313;
+    border-left: 3px solid #131313;
+    border-right: 3px solid #131313;
+}
 
+.album-de-fotos{
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 30px 30px 30px 30px;
+    border: #e0e0e0 0.1px solid;
+
+}
 #botoes{
     text-align: center;
 }
@@ -35,37 +53,42 @@ h1{
     display: none;
 }
 
-#avancar{
-    border: 3px solid black;
-    margin-left: 10px;
+#pagini{
     display: inline-block;
-    background-color: #e0e0e0;
+    border: 4px solid white;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 110px;
     padding: 10px;
-    width: 35px;
-    border-radius: 50%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+#avancar{
+    display: inline-block;
+    border: 4px solid white;
+    width: 19px;
+    font-size: 20px;
     text-align: center;
-    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
 }
 #voltar{
-    border: 3px solid black;
     display: inline-block;
-    background-color: #e0e0e0;
-    padding: 10px;
-    width: 35px;
-    border-radius: 50%;
+    border: 4px solid white;
+    width: 19px;
+    font-size: 20px;
     text-align: center;
-    font-size: 30px;
-}
-#pagini{
-    border: 3px solid black;
-    position: relative;
-    left: -60px;    
-    display: inline-block;
-    background-color: #e0e0e0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
-    width: 50px;
     border-radius: 50%;
-    text-align: center;
+    background-color: #e0e0e0;
 }
 #pagini:hover{
     cursor: pointer;
@@ -96,6 +119,7 @@ a{
 }
 
 footer{
+    width: 380px;
     margin-top: 6px;
     text-align: center;
     background-color: #e0e0e0;
