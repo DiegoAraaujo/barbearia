@@ -138,6 +138,7 @@ iframe{
 }
 #ocultar-recado:hover{
     cursor: pointer;
+    transform: translate(-2px,-2px);
 }
 #explic{
     text-indent: 20px;
