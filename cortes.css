@@ -118,8 +118,8 @@ a{
 }
 
 footer{
+    box-sizing: border-box;
     width: 380px;
-    margin-top: 6px;
     text-align: center;
     background-color: #e0e0e0;
     padding: 10px;
