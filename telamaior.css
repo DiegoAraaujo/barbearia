@@ -78,7 +78,7 @@ main{
     transition: ease 0.3s font-size;
 }
 #horarios-funcionamento span:hover{
-    font-size: 17px;
+    font-size: 22px;
 }
 #horarios-funcionamento span:hover{
     cursor: pointer;
@@ -93,7 +93,7 @@ main{
     flex-direction: column;
     background-color: #e0e0e0;
     margin-bottom: 10px;
-    width: 340px;
+    width: 540px;
 }
 #ocultarmapa{
     margin-top: 5px;
@@ -115,12 +115,12 @@ main{
 }
 iframe{
     margin-top: 5px;
-    width: 300px;
+    width: 500px;
     border-radius: 3px;
 }
 /*--------------------RECADO------------------*/
 #recado{
-    width: 340px;
+    width: 860px;
     display: none;
     background-color: #e0e0e0;
     padding: 10px;
@@ -155,7 +155,7 @@ iframe{
 #tabela{
     background-color: #e0e0e0;
     border-collapse: collapse;
-    width: 300px;
+    width: 380px;
     margin:0 auto 15px auto;
 }
 th,td{
@@ -178,7 +178,7 @@ footer{
     padding: 2px;
     border-collapse: collapse;
     background-color: #e0e0e0;
-    width: 300px;
+    width: 500px;
 }
 #precos{
     display: none;
@@ -187,7 +187,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #e0e0e0;
-    width: 340px;
+    width: 550px;
 }
 #ocultarprecos{
     margin-top: 5px;

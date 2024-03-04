@@ -14,8 +14,8 @@ function verrecado(){
     let recadoetabela = document.getElementById("horarios-funcionamento")
     let botaodeocultar = document.getElementById("ocultar-recado")
     recado.style.display = 'block'
-    tabela.style.display = 'block'
     recadoetabela.style.display = 'none'
+    tabela.style.display = 'block'
     botaodeocultar.style.display = 'block'
 }
 
